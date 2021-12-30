@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86db41296aa0e4e09b5c2a1bd6b8d602, type: 3}
+  m_Name: WolfSO
+  m_EditorClassIdentifier: 
+  specimen: 1
+  awareness: 12.2
+  agingSpeed: 0.01
+  thirstChangeDefaultRate: 0.01
+  thirstUpperThreshold: 0.5
+  thirstLowerThreshold: 0.2
+  hungerChangeDefaultRate: 0.01
+  hungerUpperThreshold: 0.2
+  hungerLowerThreshold: 0.1
+  staminaChangeDefaultRate: 0.01
+  staminaUpperThreshold: 0.5
+  staminaLowerThreshold: 0.1
+  wanderOuterCircle: 10
+  wanderInnerCircle: 5
+  wanderWaitMinTime: 1
+  wanderWaitMaxTime: 10
+  breedingCooldown: 10
+  maleNamesPool:
+  - Hanz
+  - Bert
+  - Luk
+  - Zeb
+  femaleNamesPool:
+  - Berta
+  - Nica
+  - Tough
+  - Kate
+  praysOn: 00000000
